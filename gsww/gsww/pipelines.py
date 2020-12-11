@@ -10,4 +10,7 @@ from itemadapter import ItemAdapter
 
 class GswwPipeline:
     def process_item(self, item, spider):
+        print("*"*30)
+        print(item)
+        print("*" * 30)
         return item
